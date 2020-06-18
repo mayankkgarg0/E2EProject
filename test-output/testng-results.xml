@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29695" started-at="2020-06-15T20:42:05 IST" finished-at="2020-06-15T20:42:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29695" started-at="2020-06-15T20:42:05 IST" finished-at="2020-06-15T20:42:35 IST">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@515c6049]" name="initialize" is-config="true" duration-ms="3909" started-at="2020-06-15T20:42:05 IST" finished-at="2020-06-15T20:42:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@515c6049]" name="basePageNavigation" duration-ms="13984" started-at="2020-06-15T20:42:09 IST" data-provider="getData" finished-at="2020-06-15T20:42:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@515c6049]" name="basePageNavigation" duration-ms="11616" started-at="2020-06-15T20:42:23 IST" data-provider="getData" finished-at="2020-06-15T20:42:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non-Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@515c6049]" name="teardown" is-config="true" duration-ms="123" started-at="2020-06-15T20:42:34 IST" finished-at="2020-06-15T20:42:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
